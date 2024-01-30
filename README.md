@@ -19,16 +19,16 @@ The code consists of two main functions:
 
 ***pdf_to_text(pdf_path):***
 
-. Opens the PDF file using PyMuPDF.
-. Iterates through each page of the PDF.
-. Extracts the text from each page using PyMuPDF's get_text() method.
-. Returns the combined text from all pages.
+1. Opens the PDF file using PyMuPDF.
+2. Iterates through each page of the PDF.
+3. Extracts the text from each page using PyMuPDF's get_text() method.
+4. Returns the combined text from all pages.
 
 ***generate_qr_code(text, output_path, dimension):***
 
-. Creates a QR code object using the qrcode library.
-. Sets the error correction level to ensure robustness.
-. Adds the extracted text to the QR code.
-. Generates the QR code image.
-. Resizes the image to the desired dimensions.
-. Saves the image to the specified output path.
+1. Creates a QR code object using the qrcode library.
+2. Sets the error correction level to ensure robustness.
+3. Adds the extracted text to the QR code.
+4. Generates the QR code image.
+5. Resizes the image to the desired dimensions.
+6. Saves the image to the specified output path.
