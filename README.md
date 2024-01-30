@@ -2,19 +2,23 @@
 
 This Python code extracts text from a PDF file and generates a QR code containing that text.
 
+
 **Installation**
 Before running the code, ensure you have the following libraries installed:
 
 * PyMuPDF (fitz)
 * qrcode
 * Pillow (PIL)
+  
 
 **Usage**
 1. Edit the pdf_path variable to specify the path to your PDF file.
 2. Edit the output_path variable to indicate where you want to save the generated QR code.
 3. Optionally, adjust the dimension variable to change the size of the QR code (defaults to 550x550 pixels).
+   
 
 **Functionality**
+
 The code consists of two main functions:
 
 ***pdf_to_text(pdf_path):***
